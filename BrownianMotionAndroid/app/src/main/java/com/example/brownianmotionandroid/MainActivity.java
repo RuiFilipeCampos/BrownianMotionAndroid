@@ -6,25 +6,23 @@ import android.os.Bundle;
 
 // the usual geometry stuff
 class Vector{
-    private double x, y, z;
+    private double x, y;
 
-    Vector(double x, double y, double z){
+    Vector(double x, double y){
         this.x = x;
         this.y = y;
-        this.z = z;
-
     }
 
     public Vector plus(Vector other){
-        return new Vector(this.x + other.x, this.y + other.y, this.z + other.z);
+        return new Vector(this.x + other.x, this.y + other.y);
     }
 
     public Vector minus(Vector other){
-        return new Vector(this.x - other.x, this.y - other.y, this.z - other.z);
+        return new Vector(this.x - other.x, this.y - other.y);
     }
 
     public double dot(Vector other){
-        return this.x*other.x + this.y*other.y + this.z*other.z;
+        return this.x*other.x + this.y*other.y;
     }
 
     public void rotate(Vector axis){
