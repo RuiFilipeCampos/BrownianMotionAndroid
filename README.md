@@ -93,3 +93,7 @@ https://www.quora.com/What-is-the-use-of-R-java-in-Android-Studio-and-how-do-you
 ok so this is like:
 
 R.layout.activity_main -----> res/layout/activity_main.xml
+
+-----------
+
+this gunna be easy yooo c:
