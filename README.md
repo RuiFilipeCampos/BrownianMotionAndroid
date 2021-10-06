@@ -37,3 +37,13 @@ pretty unique stuff I would say
 https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
 
 ## `protected` keyword
+
+> Once a variable or a method is marked as protected, it can only be accessed by the below methods:
+> 
+> - Inside the same class in which it is declared.
+> - From other classes which are also in the same package as the declared class.
+> - Classes inherited from the declared one, irrespective of their package.
+> 
+> Protected keywords are like a combination of both public and private keywords since they were introduced to access the variables outside the class (which is not possible in the case of private keywords) and maintain that only certain methods can inherit the same.
+
+kay
