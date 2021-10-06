@@ -82,3 +82,5 @@ setContentView(R.layout.activity_main);
 ```
 
 wuts this R stuff
+
+fr where did it come from
