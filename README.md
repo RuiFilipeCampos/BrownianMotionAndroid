@@ -45,6 +45,10 @@ pretty unique stuff I would say
 
 kay
 
+## `@override`
+
+why an entire decorator for overriding parent methods
+
 ## the `androidx.appcompat.app.AppCompatActivity` class
 
 https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
