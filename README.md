@@ -84,3 +84,5 @@ setContentView(R.layout.activity_main);
 wuts this R stuff
 
 fr where did it come from
+
+https://www.quora.com/What-is-the-use-of-R-java-in-Android-Studio-and-how-do-you-use-it
