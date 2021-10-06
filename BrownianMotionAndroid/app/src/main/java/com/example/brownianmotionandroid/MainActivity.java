@@ -34,9 +34,9 @@ class Vector{
 }
 
 class Particle{
-
-
-
+    Vector position;
+    Vector direction;
+    double velocity;
 }
 
 public class MainActivity extends AppCompatActivity {
