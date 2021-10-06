@@ -33,6 +33,10 @@ alright, one thing at the time
 pretty unique stuff I would say
 
 
+## `Bundle` class 
+
+- [ ] wuts this bundle stuff
+
 ## `protected` keyword
 
 > Once a variable or a method is marked as protected, it can only be accessed by the below methods:
@@ -47,7 +51,7 @@ kay
 
 ## `@override`
 
-why an entire decorator for overriding parent methods
+- [ ] why an entire decorator for overriding parent methods
 
 ## the `androidx.appcompat.app.AppCompatActivity` class
 
