@@ -35,3 +35,5 @@ pretty unique stuff I would say
 ## the `androidx.appcompat.app.AppCompatActivity` class
 
 https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
+
+## `protected` keyword
