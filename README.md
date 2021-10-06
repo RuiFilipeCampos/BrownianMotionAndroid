@@ -23,3 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+alright, one thing at the time
+
+## `package` keyword
