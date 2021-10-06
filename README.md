@@ -32,9 +32,6 @@ alright, one thing at the time
 
 pretty unique stuff I would say
 
-## the `androidx.appcompat.app.AppCompatActivity` class
-
-https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
 
 ## `protected` keyword
 
@@ -47,3 +44,8 @@ https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
 > Protected keywords are like a combination of both public and private keywords since they were introduced to access the variables outside the class (which is not possible in the case of private keywords) and maintain that only certain methods can inherit the same.
 
 kay
+
+## the `androidx.appcompat.app.AppCompatActivity` class
+
+https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
+
