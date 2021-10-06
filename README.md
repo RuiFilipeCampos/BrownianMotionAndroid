@@ -60,7 +60,7 @@ https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
 
 # -- 
 
-```
+```Java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +69,9 @@ https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity
 ```
 
 1 -> overrride parent method `onCreate`
+
 2 -> define scope | return value is void | method name | arguments -> Bundle type named savedInstanceState
+
 3 -> call the original onCreate method by passing the given savedInstanceState
+
 4 -> dunno yet
