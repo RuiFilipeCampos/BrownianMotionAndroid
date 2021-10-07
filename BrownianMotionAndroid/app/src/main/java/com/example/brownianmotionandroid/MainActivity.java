@@ -43,11 +43,9 @@ class Particle{
 
     Particle(double x, double y, double vx, double vy){
         this.position = new Vector(x, y);
-
         this.speed = vx*vx + vy*vy;
         this.direction = new Vector(vx, vy);
         this.direction.inplace_scalar(1/this.speed);
-
     }
 }
 
@@ -57,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Particle RANDOM_WALKER = this.Particle(0, 0, 1, 1); // idk
-
+        Particle RANDOM_WALKER = new Particle(0, 0, 1, 1); // idk
     }
 }
