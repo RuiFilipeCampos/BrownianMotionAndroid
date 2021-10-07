@@ -1,14 +1,19 @@
 package com.example.brownianmotionandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintSet;
 
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
+import java.util.ArrayList;
+
+import java.util.Arrays;
 
 // the usual geometry stuff
 class Vector{
-    private double x, y;
+    public double x, y;
 
     Vector(double x, double y){
         this.x = x;
@@ -59,19 +64,56 @@ class Particle{
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView click_count_display;
+    int click_count;
+    ArrayList<Particle> particles;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        this.particles = new ArrayList<Particle>();
+
         Particle RANDOM_WALKER = new Particle(
                 0,  0,  1, 1
         );
 
-        TextView click_count = findViewById(R.id.click_count);
+        this.click_count_display = findViewById(R.id.click_count);
+        this.click_count = 0;
+    }
 
-        click_count.setText("Τest");
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event){
+
+        if (event.getAction() == MotionEvent.ACTION_DOWN){
+            this.click_count += 1;
+            this.click_count_display.setText(
+                    "x:" + Double.toString(event.getX()) + "  y:" + Double.toString(event.getY())
+            );
+
+            this.particles.add(
+                    new Particle(
+                        event.getX(),
+                        event.getY(),
+                        0, 1
+                    )
+            );
+
+        }
+
+
+        return super.onTouchEvent(event);
 
     }
+
+
+
+
+
+
 
 
 }
