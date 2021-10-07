@@ -3,7 +3,15 @@ An android app that draws particles undergoing brownian motion on tap.
 
 ### current state of project
 
-understanding java
+~~understanding java~~
+
+- detects location of screen tap
+- records it onto the screen
+- creates particle based on it
+
+
+![brownianmotion](https://user-images.githubusercontent.com/63464503/136333433-f9361871-040f-410c-a907-e4a8db7698d6.png)
+
 
 
 # java
