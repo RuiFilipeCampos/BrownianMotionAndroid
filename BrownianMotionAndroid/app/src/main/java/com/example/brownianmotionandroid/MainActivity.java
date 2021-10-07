@@ -3,6 +3,8 @@ package com.example.brownianmotionandroid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 // the usual geometry stuff
 class Vector{
@@ -14,11 +16,17 @@ class Vector{
     }
 
     public Vector plus(Vector other){
-        return new Vector(this.x + other.x, this.y + other.y);
+        return new Vector(
+                this.x + other.x,
+                this.y + other.y
+        );
     }
 
     public Vector minus(Vector other){
-        return new Vector(this.x - other.x, this.y - other.y);
+        return new Vector(
+                this.x - other.x,
+                this.y - other.y
+        );
     }
 
     public double dot(Vector other){
@@ -55,6 +63,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Particle RANDOM_WALKER = new Particle(0, 0, 1, 1); // idk
+        Particle RANDOM_WALKER = new Particle(
+                0,  0,  1, 1
+        );
+
+        TextView click_count = findViewById(R.id.click_count);
+
+        click_count.setText("Τest");
+
     }
+
+
 }
