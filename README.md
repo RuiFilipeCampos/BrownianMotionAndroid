@@ -1,3 +1,5 @@
+Part of my most recent challange: learn three languages at the same time c:
+
 # BrownianMotionAndroid
 An android app that draws particles undergoing brownian motion on tap. 
 
